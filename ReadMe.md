@@ -15,15 +15,16 @@ We have keyword this
 /*
  Write a class Employee
  with following property
+   double hourlyRate;
+    double bonus;
+    int hourWorked;
+    int overTimeHours;
  */
 
 class Employee{
     int empId;
     String name;
-    double hourlyRate;
-    double bonus;
-    int hourWorked;
-    int overTimeHours;
+  
     // implement overload method to calculate wage with overtime
     // bonus and normal hours
     public double calWages(){
